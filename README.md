@@ -1,7 +1,7 @@
 # x86
 Upon taking an embedded system class at my university I gained a new appreciation for assembly programming. As a result I sought out a means of learning another assembly language. This project is me following the lessons provided by the website asmtutor to learn x86 assembly on free time.
 
-For this project I used the ubuntu 16.04 command line and nasm assembler to run my programs, Thus the following commands should be used in order to run the program in the command line.
+For this project I used the ubuntu 16.04 command line and nasm assembler to run my programs on a 64 bit device, Thus the following commands should be used in order to run the program in the command line.
 	
 	nasm -f elf "filename.asm" 
 	ld -m elf_i386 "filename.o" -o "filename"
